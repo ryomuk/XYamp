@@ -8,7 +8,7 @@ This document is written mostly in Japanese. If necessary, please use a translat
 主な構成要素は下記の3種類．
 - X, Y信号で偏向コイルを駆動するためのアンプ
 - Z信号(輝度信号)でG1グリッドを駆動するためのアンプ
- - WatchmanのCRTはカソードではなくG1で輝度を調整しています．
+-- WatchmanのCRTはカソードではなくG1で輝度を調整しています．
 - フライバックトランス(高電圧生成)用の16kHzの信号発振器
 
 # 回路の説明
@@ -29,8 +29,8 @@ This document is written mostly in Japanese. If necessary, please use a translat
 ## watchman関連
 - https://github.com/lucysrausch/sony-scopeman
 - https://vintage-technics.ru/Eng-Sony_FD-40A.htm
- - FD-40Aの回路図あり．
- - 検索したらFD-10やFD-20の回路図もネット上にあるみたい．
+-- FD-40Aの回路図あり．
+-- 検索したらFD-10やFD-20の回路図もネット上にあるみたい．
 
 ## 偏向コイルの補償について
 - https://www.youtube.com/watch?v=PtxpeOIiFUw
