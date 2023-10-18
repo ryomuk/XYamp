@@ -14,7 +14,7 @@ This document is written mostly in Japanese. If necessary, please use a translat
 
 # 動画
 動作している様子です．
-https://www.youtube.com/watch?v=gAd8rqS27hQ
+[![](https://img.youtube.com/vi/gAd8rqS27hQ/0.jpg)](https://www.youtube.com/watch?v=gAd8rqS27hQ)
 
 # 回路の説明
 ## XY軸(偏向)用アンプ
