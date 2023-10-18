@@ -20,6 +20,7 @@ This document is written mostly in Japanese. If necessary, please use a translat
 ## XY軸(偏向)用アンプ
 ## Z軸(輝度)用アンプ
 ## フライバック信号発振器
+## BOM
 
 # 接続方法
 ## watchman FD-10
@@ -63,6 +64,11 @@ This document is written mostly in Japanese. If necessary, please use a translat
 
 ## XYモニター関連
 - https://www.jmargolin.com/xy/xymon.htm
+
+## オペアンプの並列接続について
+「オペアンプ 大容量」でググって出てきたのがこちら．
+- https://www.digikey.jp/ja/articles/control-amplify-high-voltages-effectively-high-voltage-op-amp
+    - 元のデータシートはこちら https://www.ti.com/product/ja-jp/OPA454    
 
 # 更新履歴
 - 2023/10/18: 初版公開
