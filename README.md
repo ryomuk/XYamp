@@ -5,15 +5,20 @@ This document is written mostly in Japanese. If necessary, please use a translat
 
 # 概要
 白黒CRTをXYモニターとして使うための回路です．SCOPETREXの出力をSONY watchmanに表示させるために作りました．
-主な構成要素は下記の3種類．
+
+主な構成要素は下記の3種類の回路です．
 - X, Y信号で偏向コイルを駆動するためのアンプ
 - Z信号(輝度信号)でG1グリッドを駆動するためのアンプ
     - WatchmanのCRTはカソードではなくG1で輝度を調整しています．
 - フライバックトランス(高電圧生成)用の16kHzの信号発振器
 
+# 動画
+動作している様子です．
+https://www.youtube.com/watch?v=gAd8rqS27hQ
+
 # 回路の説明
-## XYアンプ
-## Zアンプ
+## XY軸(偏向)用アンプ
+## Z軸(輝度)用アンプ
 ## フライバック信号発振器
 
 # 接続方法
@@ -21,6 +26,23 @@ This document is written mostly in Japanese. If necessary, please use a translat
 ## watchman FD-40
 
 # 調整方法
+調整箇所は下記の通り．
+## アンプ側
+- X, Yの入力振幅とオフセット
+- X, Yの偏向コイルの補償
+- X, Yの帰還信号(経路1)
+- X, Yの帰還信号(経路2)
+- Zの入力振幅とオフセット
+- Zの倍率
+- フライバック信号の周波数
+    - 16kHzぐらいにする
+## watchman側
+- 輝度
+- フォーカス
+
+# ブレッドボード版プロトタイプ
+- とりあえずブレッドボードに組んで動作しました．
+- ブレッドボードなのが原因かは不明ですが信号が若干揺れます．
 
 # ToDo
 - 基板作成
