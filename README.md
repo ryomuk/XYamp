@@ -6,6 +6,9 @@ This document is written mostly in Japanese. If necessary, please use a translat
 # 概要
 白黒CRTをXYモニターとして使うための回路です．SCOPETREXの出力をSONY watchmanに表示させるために作りました．
 
+![](images/FD10_vectrextitle.jpg)
+![](images/FD40_vectrextitle.jpg)
+
 主な構成要素は下記の3種類の回路です．
 - X, Y信号で偏向コイルを駆動するためのアンプ
 - Z信号(輝度信号)でG1グリッドを駆動するためのアンプ
@@ -18,13 +21,26 @@ This document is written mostly in Japanese. If necessary, please use a translat
 
 # 回路の説明
 ## XY軸(偏向)用アンプ
+![](images/sch_XY.png)
+
 ## Z軸(輝度)用アンプ
+![](images/sch_Z.png)
+
 ## フライバック信号発振器
+![](images/sch_flyback.png)
+
 ## BOM
 
 # 接続方法
 ## watchman FD-10
+![](images/FD10_pcb.jpg)
+
 ## watchman FD-40
+![](images/FD40_yoke.jpg)
+![](images/FD40_G1.jpg)
+![](images/FD40_sch.jpg)
+![](images/R509.jpg)
+![](images/R801.jpg)
 
 # 調整方法
 調整箇所は下記の通り．
@@ -45,8 +61,18 @@ This document is written mostly in Japanese. If necessary, please use a translat
 - とりあえずブレッドボードに組んで動作しました．
 - ブレッドボードなのが原因かは不明ですが信号が若干揺れます．
 
+## 画像
+![](images/FD10_starhawk.jpg)
+![](images/FD10_test.jpg)
+![](images/FD40_testd1.jpg)
+![](images/FD40_testd2.jpg)
+![](images/FD40_testi.jpg)
+
 # ToDo
 - 基板作成
+- 電源はバッテリーにしたい．
+- vectrex部分もwatchmanの筐体に内蔵したい．
+    - https://github.com/ryomuk/tangnano20k-vectrex みたいなやつ?
 
 # 参考にした文献，サイト等
 ## watchman関連
