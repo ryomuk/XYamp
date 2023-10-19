@@ -6,7 +6,10 @@ This document is written mostly in Japanese. If necessary, please use a translat
 # 概要
 白黒CRTをXYモニターとして使うための回路です．SCOPETREX( https://github.com/schlae/scopetrex )の出力をSONY watchmanに表示させるために作りました．
 
+watchman FD-10
 ![](images/FD10_vectrextitle.jpg)
+
+watchman FD-40
 ![](images/FD40_vectrextitle.jpg)
 
 主な構成要素は下記の3種類の回路です．
