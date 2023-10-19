@@ -18,11 +18,6 @@ watchman FD-40
     - WatchmanのCRTはカソードではなくG1で輝度を調整しています．
 - フライバックトランス(高電圧生成)用の16kHzの信号発振器
 
-# 動画
-動作している様子です．
-
-[![](https://img.youtube.com/vi/gAd8rqS27hQ/0.jpg)](https://www.youtube.com/watch?v=gAd8rqS27hQ)
-
 # 回路の説明
 ## XY軸(偏向)用アンプ
 ![](images/sch_xy.png)
@@ -114,7 +109,12 @@ Y軸の方は1回路でも十分なのですが，余っているので並列に
 - とりあえずブレッドボードに組んで動作しました．
 - ブレッドボードなのが原因かは不明ですが信号が若干揺れます．
 
-## 画像
+# 動画
+動作している様子です．
+
+[![](https://img.youtube.com/vi/gAd8rqS27hQ/0.jpg)](https://www.youtube.com/watch?v=gAd8rqS27hQ)
+
+## その他の画像
 ![](images/FD10_starhawk.jpg)
 ![](images/FD10_test.jpg)
 ![](images/FD40_testd1.jpg)
