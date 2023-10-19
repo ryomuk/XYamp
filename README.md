@@ -94,9 +94,24 @@ sony-scopemanでは3.3V単電源のオペアンプの出力を継げているよ
 ## watchman FD-10
 ![](images/FD10_pcb.jpg)
 
+FD-10の信号線に関しては[sony-scopeman](https://github.com/lucysrausch/sony-scopeman)を参考にしました．
+- X yoke: CRTから伸びている赤(+)と青(-)
+- Y yoke: CRTから伸びている白(+)と紫(-)
+- G1: CRTから伸びている黄色
+- flyback signal: 基板上の青
+- 電源: 基板上の紫(+5V)と黒(GND)．(上記写真では赤と黒)
+
 ## watchman FD-40
 ![](images/FD40_yoke.jpg)
 ![](images/FD40_G1.jpg)
+
+- X yoke: コイル横の基板の赤(+)と青(-)
+- Y yoke: コイル横の基板の白(+)と紫(-)
+- G1: CRT根元の基板に表記あり
+- 電源: +5Vだけでいいのか未確認なので，現状+6VをDCinから供給しています．
+- GNDはどこか適当なところに接続
+
+- flyback signal: 基板上R509とR801を外して，R801のトランジスタ側(Q801のベース)に接続
 ![](images/FD40_sch.jpg)
 ![](images/R509.jpg)
 ![](images/R801.jpg)
