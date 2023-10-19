@@ -164,28 +164,28 @@ FD-10の信号線に関しては[sony-scopeman](https://github.com/lucysrausch/s
     - https://github.com/ryomuk/tangnano20k-vectrex みたいなやつ?
 
 # 参考にした文献，サイト等
-## watchman関連
+### watchman関連
 - https://github.com/lucysrausch/sony-scopeman
 - https://vintage-technics.ru/Eng-Sony_FD-40A.htm
     - FD-40Aの回路図あり．
     - 検索したらFD-10やFD-20の回路図もネット上にあるみたい．
 
-## 偏向コイルの補償について
+### 偏向コイルの補償について
 - https://www.youtube.com/watch?v=PtxpeOIiFUw
 
-## Vectrex, Scopetrex関連
+### Vectrex, Scopetrex関連
 - https://github.com/schlae/scopetrex
 - https://www.e-basteln.de/arcade/asteroids/monitor/
 
-## XYモニター関連
+### XYモニター関連
 - https://www.jmargolin.com/xy/xymon.htm
 
-## オペアンプの並列接続について
+### オペアンプの並列接続について
 「オペアンプ 大容量」でググって出てきたのがこちら．
 - https://www.digikey.jp/ja/articles/control-amplify-high-voltages-effectively-high-voltage-op-amp
     - 元のデータシートはこちら https://www.ti.com/product/ja-jp/OPA454    
 
 # 更新履歴
-- 2023/10/18: 初版公開
+- 2023/10/19: 初版公開
 
 
