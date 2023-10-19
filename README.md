@@ -27,6 +27,17 @@ watchman FD-40
 ## XY軸(偏向)用アンプ
 ![](images/sch_xy.png)
 
+watchmanのCRTではX軸は±500mA程度，Y軸は±100mA(FD-10), 0〜150mA(FD-40)程度の電流を流す必要があるようでした．sony-scopeman( https://github.com/lucysrausch/sony-scopeman )ではエミッタフォロワで実装しているようでしたが，私はアナログ回路に疎いのでオペアンプ直結で実装することにしました．ちなみにVectrexは大容量オペアンプ(LM379)が使われています．
+- 動作電圧±5V
+- 小型パッケージ
+- 入手が容易
+という基準で探してみたところ，秋月で入手可能なAD8397ARDZが良さそうだったのでこれを使うことにしました．1回路だと容量が足りないので，2回路並列で使っています．
+安直に2回路並列にして容量を増やせるのかどうか疑問だったのですが，
+「オペアンプ 大容量」でググって出てきたこの情報を見つけて試してみたところ問題無く動きました．
+- https://www.digikey.jp/ja/articles/control-amplify-high-voltages-effectively-high-voltage-op-amp
+    - 元のデータシートはこちら https://www.ti.com/product/ja-jp/OPA454    
+Y軸の方は1回路でも十分なのですが，余っているので並列にしています．
+
 ## Z軸(輝度)用アンプ
 ![](images/sch_z.png)
 
@@ -34,6 +45,7 @@ watchman FD-40
 ![](images/sch_flyback.png)
 
 ## BOM
+暫定版なので，もしかしたら回路図と合ってないかもしれません．
 
 |Reference|Qty|Value|Memo|
 |---|---|---|---|
