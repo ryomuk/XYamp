@@ -5,6 +5,7 @@ This document is written mostly in Japanese. If necessary, please use a translat
 
 # 概要
 白黒CRTをXYモニターとして使うための回路です．SCOPETREX( https://github.com/schlae/scopetrex )の出力をSONY watchmanに表示させるために作りました．
+回路はsony-scopeman( https://github.com/lucysrausch/sony-scopeman )とVectrex Seervice Manualを参考にしながら独自に描いたものです．
 
 watchman FD-10
 ![](images/FD10_vectrextitle.jpg)
@@ -22,7 +23,7 @@ watchman FD-40
 ## XY軸(偏向)用アンプ
 ![](images/sch_xy.png)
 
-watchmanのCRTではX軸は±500mA程度，Y軸は±100mA(FD-10), 0〜150mA(FD-40)程度の電流を流す必要があるようでした．sony-scopeman( https://github.com/lucysrausch/sony-scopeman )ではエミッタフォロワで実装しているようでしたが，私はアナログ回路に疎いのでオペアンプ直結で実装することにしました．ちなみにVectrexは大容量オペアンプ(LM379)が使われています．
+watchmanのCRTではX軸は±500mA程度，Y軸は±100mA(FD-10), 0〜150mA(FD-40)程度の電流を流す必要があるようでした．sony-scopemanではエミッタフォロワで実装しているようでしたが，私はアナログ回路に疎いのでオペアンプ直結で実装することにしました．ちなみにVectrexは大容量オペアンプ(LM379)が使われています．
 - 動作電圧±5V
 - 小型パッケージ
 - 入手が容易
@@ -38,6 +39,8 @@ Y軸の方は1回路でも十分なのですが，余っているので並列に
 
 ## Z軸(輝度)用アンプ
 ![](images/sch_z.png)
+
+sony-scopemanでは
 
 ## フライバック信号発振器
 ![](images/sch_flyback.png)
