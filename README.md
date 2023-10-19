@@ -4,7 +4,7 @@ Deflection amplifier to mod a CRT into an XY monitor. Mainly designed for the SO
 This document is written mostly in Japanese. If necessary, please use a translation service such as DeepL (I recommend this) or Google.
 
 # 概要
-白黒CRTをXYモニターとして使うための回路です．SCOPETREXの出力をSONY watchmanに表示させるために作りました．
+白黒CRTをXYモニターとして使うための回路です．SCOPETREX(https://github.com/schlae/scopetrex )の出力をSONY watchmanに表示させるために作りました．
 
 ![](images/FD10_vectrextitle.jpg)
 ![](images/FD40_vectrextitle.jpg)
