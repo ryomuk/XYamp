@@ -127,7 +127,7 @@ FD-10の信号線に関しては[sony-scopeman](https://github.com/lucysrausch/s
 
 # 調整方法
 調整箇所は下記の通り．
-## アンプ側
+### アンプ側
 - X, Yの入力振幅とオフセット
 - X, Yの偏向コイルの補償
 - X, Yの帰還信号(経路1)
@@ -136,7 +136,7 @@ FD-10の信号線に関しては[sony-scopeman](https://github.com/lucysrausch/s
 - Zの倍率
 - フライバック信号の周波数
     - 16kHzぐらいにする
-## watchman側
+### watchman側
 - 輝度
 - フォーカス
 
