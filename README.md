@@ -21,10 +21,10 @@ This document is written mostly in Japanese. If necessary, please use a translat
 
 # 回路の説明
 ## XY軸(偏向)用アンプ
-![](images/sch_XY.png)
+![](images/sch_xy.png)
 
 ## Z軸(輝度)用アンプ
-![](images/sch_Z.png)
+![](images/sch_z.png)
 
 ## フライバック信号発振器
 ![](images/sch_flyback.png)
@@ -58,6 +58,7 @@ This document is written mostly in Japanese. If necessary, please use a translat
 - フォーカス
 
 # ブレッドボード版プロトタイプ
+![](images/breadboard.jpg)
 - とりあえずブレッドボードに組んで動作しました．
 - ブレッドボードなのが原因かは不明ですが信号が若干揺れます．
 
